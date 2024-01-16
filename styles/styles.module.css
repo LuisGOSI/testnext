@@ -3,6 +3,12 @@
 
 }
 
+.h1Pri {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 4.5rem;
+}
+
 .navbar {
     background-color: cadetblue;
     padding: 10px 20px;

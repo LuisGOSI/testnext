@@ -1,4 +1,4 @@
-// import Link from 'next/link';
+import Link from 'next/link';
 // import Head from 'next/head';
 import styles from '@/styles/styles.module.css';
 import Footer from '@/components/Footer';
@@ -14,23 +14,23 @@ export default function Home() {
 
       {/* Navbar */}  
       <nav className={styles.navbar}>
-        <a href="#" className={styles.navbarBrand}>Home</a>
+        <Link href="/" className={styles.navbarBrand}>Home</Link>
         <ul className={styles.navbarNav}>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink}>Ayuda</a>
+            <Link href="/pages/ayuda" className={styles.navLink}>Ayuda</Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink}>Contacto</a>
+            <Link href="/pages/contacto" className={styles.navLink}>Contacto</Link>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink}>Sesion</a>
+            <Link href="/pages/sesion" className={styles.navLink}>Sesion</Link>
           </li>
         </ul>
       </nav>
 
       {/* Contenido principal */}
       <div className={styles.content}>
-        <h1>Development with Next</h1>
+        <h1 className={styles.h1Pri}>Development with Next</h1>
       </div>
         
         {/* Footer */}
