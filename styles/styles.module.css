@@ -1,0 +1,51 @@
+.container {
+    /* padding-top: 56px; */
+
+}
+
+.navbar {
+    background-color: cadetblue;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbarBrand {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+
+}
+
+.navbarNav {
+    list-style: none;
+    display: flex;
+}
+
+.navItem {
+    margin-left: 20px;
+}
+
+.navLink {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: cadetblue;
+    padding: 10px 20px;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
