@@ -6,9 +6,11 @@ export default function Home() {
   return (
     <div className={styles.content}>
       {/* Contenido principal */}
-        <h1 className={styles.h1Pri}>Development with Next</h1>
+      <h1 className={styles.h1Pri}>Development with Next</h1>
+      <div className={styles.gifContainer}>
+        <Gif />
+      </div>
 
-        <Gif/>
 
       {/* Footer */}
       <Footer />

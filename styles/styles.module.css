@@ -1,7 +1,7 @@
 .h1Pri {
     text-align: center;
     margin-top: 30px;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .navbar {
@@ -10,15 +10,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .navbarBrand {
     color: white;
     font-size: 1.5rem;
     text-decoration: none;
-
-
 }
 
 .navbarNav {
@@ -39,13 +36,20 @@
 .content {
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     margin-top: 50px;
+}
+
+.gifContainer {
+    margin-top: 20px;
 }
 
 .gif {
     filter: invert(100%);
+    width: 350px;
+    height: 350px;
 }
 
 .footer {
