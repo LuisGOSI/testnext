@@ -1,6 +1,9 @@
 import styles from '@/styles/styles.module.css';
 import Gif from '@/components/Gif';
 import Footer from '@/components/Footer';
+import Counter from '@/components/Counter';
+import Login from '@/components/Login';
+import IndexPage from '@/components/IndexPage';
 
 export default function Home() {
   return (
@@ -10,6 +13,10 @@ export default function Home() {
       <div className={styles.gifContainer}>
         <Gif />
       </div>
+
+    <div>
+    <IndexPage />
+    </div>
 
 
       {/* Footer */}
